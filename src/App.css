@@ -1,6 +1,17 @@
-.app{
-  height: 100vh;
-  width: 100vw;
-  display: grid;
-  place-items: center;
+.app_header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+.button_container{
+  background-color: green;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 20px;
 }
